@@ -283,6 +283,7 @@ export default function Home() {
               <div className="flex gap-4 items-center">
                 <p>if you want, you can do </p>
                 <Toggle
+                  className="bg-accent text-white"
                   value={banktransfer.toString()}
                   onClick={() => setBankTransfer(!banktransfer)}
                   variant={"outline"}

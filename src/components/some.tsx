@@ -1,3 +1,5 @@
+import { sourceMapsEnabled } from "process";
+
 export function HeartIcon(props: any) {
   return (
     <svg
@@ -17,6 +19,7 @@ export function HeartIcon(props: any) {
   );
 }
 
+
 export function XIcon(props: any) {
   return (
     <svg
@@ -34,5 +37,4 @@ export function XIcon(props: any) {
       <path d="M18 6 6 18" />
       <path d="m6 6 12 12" />
     </svg>
-  );
-}
+  ); }

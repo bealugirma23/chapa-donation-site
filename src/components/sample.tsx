@@ -74,9 +74,11 @@ export default function Home() {
               className={styles.btn}
               onClick={handleChapa}
             >
+
               Pay with 
-              <img
-                  src="/images/chapa.svg"
+some one is doing <h1 class="display-1">Heading</h1>
+
+="/images/chapa.svg"
                   alt="chapa image"
                   style={{
                     width: "100px",
