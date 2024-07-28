@@ -34,7 +34,6 @@ export default function Home() {
   const [banktransfer, setBankTransfer] = useState<boolean>(false);
 
   // to get all the donors data that transfered from chapa
-
   // useEffect(() => {
   //   const fetch = async () => {
   //     try {
